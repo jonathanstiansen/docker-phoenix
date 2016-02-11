@@ -1,0 +1,5 @@
+# Building Phoenix Apps with Docker!
+
+Step 1. Replace all occurances (2) of <<MyProject>> with CamelCased project name of your choice.
+Step 2. Replace the occurance of :my_project with a snake case name coresponding to the CamelCased name above.
+Step 3. docker-compose build
