@@ -19,5 +19,5 @@ ENV PORT 8080
 ENV MIX_ENV prod
 
 RUN mix deps.compile
-
-ENTRYPOINT /$APP/scripts/start-server.sh
+RUN mix ecto.create
+RUN mix ecto.migrate

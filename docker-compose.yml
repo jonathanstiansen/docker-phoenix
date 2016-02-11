@@ -2,7 +2,7 @@ db:
   image: postgres
 web:
   build: .
-  command: ./script/start.sh
+  command: mix phoenix.server 
   ports:
     - "80:8080"
   links:
